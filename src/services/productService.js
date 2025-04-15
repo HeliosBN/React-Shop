@@ -15,7 +15,7 @@ const productService = {
       throw error;
     }
     return { 
-      products: data, 
+      products: data,
       total: count,
       totalPages: Math.ceil(count / limit)
     };
