@@ -20,7 +20,10 @@ const Header = ({ cartCount = 0 }) => {
               <NavLink className="nav-link" to="/produtos/novo">
                 Novo Produto
               </NavLink>
-              <NavLink className="nav-link" to="/clientes/novo"> {/* Added link */}
+              <NavLink className="nav-link" to="/clientes">
+                Clientes
+              </NavLink>
+              <NavLink className="nav-link" to="/clientes/novo">
                 Novo Cliente
               </NavLink>
               <a className="nav-link" href="/sobre">Quem Somos</a>
