@@ -20,8 +20,3 @@ git clone https://github.com/HeliosBN/React-Shop.git
 ```bash
 npm install
 ```
-
-3. Inicie o projeto
-```bash
-npm start
-``` 
